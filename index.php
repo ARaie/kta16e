@@ -1,19 +1,8 @@
 <meta charset = "utf-8">
 
-<script type="text/javascript">
-
-    window.onload = function () {
-        (function () {
-            var date = new Date();
-            var time = date.getHours() + ':' + date.getMinutes() + ':' + date.getSeconds();
-            document.getElementsByTagName('div')[1].innerHTML = "Aeg JS' is on: "+time;
-            window.setTimeout(arguments.callee, 1000);
-            
-        })();
-    };
+<script  type="text/javascript" src = "skript.js"></script>
 
 
-</script>
 
 <?php
 
