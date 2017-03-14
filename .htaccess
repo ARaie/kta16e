@@ -1,5 +1,4 @@
-<files "*.txt">
-deny form all
-
->/files>
-// keelab kasutajale logi vaatamise
+AuthType Basic
+AuthName "protected"
+AuthUserFile C:\wamp64\www\kta16e\.htpasswd
+Require valid-user
