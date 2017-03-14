@@ -1,0 +1,5 @@
+<files "*.txt">
+deny form all
+
+>/files>
+// keelab kasutajale logi vaatamise
